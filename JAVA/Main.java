@@ -1,14 +1,10 @@
 class Main {
     public static void main(String[] args) {
         System.out.println("Hola Mundo\n");
-        Car car = new Car();
-        car.driver = "Camilo Cuervo";
-        car.license = "GCW294";
+        Car car = new Car("GCW294", new Account("Camilo Cuervo", "CC1015451722"));
         car.printDataCar();
 
-        Car car2 = new Car();
-        car2.driver = "Ana Rivera";
-        car2.license = "AFZ394";
+        Car car2 = new Car("AFZ394", new Account("Ana Rivera", "CC169842563"));
         car2.printDataCar();
     }
 }
