@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 *.gif
 *.json
 *.class
+*.docx
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,java,phpunit
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,java,phpunit
